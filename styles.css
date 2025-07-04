@@ -1,0 +1,23 @@
+/*Animasi typing untuk elemen dengan class 'typing-animation' */
+/* .typing-animation {
+    overflow: hidden; /* Pastikan teks yang tidak terlihat terpotong */
+    border-right: .15em solid orange; /* Efek kursor ketik */
+    white-space: nowrap; /* Mencegah teks melompat ke baris baru */
+    margin: 0 auto; /* Tengah teks */
+    letter-spacing: .15em; /* Efek spasi antar huruf */
+    animation: 
+      typing 3.5s steps(40, end) infinite,
+      blink-caret .75s step-end infinite; */
+}
+
+/* Keyframes untuk animasi ketik */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+/* Keyframes untuk animasi kursor berkedip */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+}
